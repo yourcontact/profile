@@ -1,0 +1,93 @@
+.heading {
+  display: inline;
+  margin-top: 50px;
+  font-family: Sortsmillgoudy, sans-serif;
+  text-align: left;
+}
+
+.image {
+  display: inline;
+  margin: 20px auto 10px;
+  float: right;
+}
+
+.div-block {
+  margin-top: auto;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.paragraph {
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.body {
+  font-family: Sortsmillgoudy, sans-serif;
+}
+
+.div-block-2 {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.image-2 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.image-3 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.image-4 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.div-block-3 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.heading-2 {
+  display: inline-block;
+}
+
+.container {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .image {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .heading-2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .div-block-3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .heading-2 {
+    font-size: 20px;
+  }
+}
+
+@font-face {
+  font-family: 'Sortsmillgoudy';
+  src: url('../fonts/SortsMillGoudy-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sortsmillgoudy';
+  src: url('../fonts/SortsMillGoudy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
